@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+body{background-color: black;}
+.titulo{ color: whitesmoke;}
+.text
+{
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 100px;
+    color: white;
+    background-color: black;  
+}
+
+.nav{color: whitesmoke;
+    background-color: black;
+    }
+
+.rectangle {
+  background-image: url('https://img.freepik.com/vector-premium/fondo-papel-cuadriculado-ilustracion-vectorial_178156-390.jpg?w=2000');
+  border-radius: 0 400px 400px 0;
+            
+}
+.texto{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 75px 75px 75px 75px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(157, 157, 157, 0.126);  
+    padding: 10px 
+  }
+ 
+
+ .contacto{
+  align-items: left;
+  justify-content: left;
+  font-family: 'Inconsolata', monospace;;
+  font-size: 35px;
+  color: white;
+  background-color: black;
+}
+
+
+.num{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.container-fluid{
+  font-family: 'Inconsolata', monospace;;
+}
+
+.linea{
+  border-top: 5px solid #ffffff;
+  margin-bottom: 40px;
+}
+
+.nav-link
+{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    
+}
+
+.nav-link:hover
+{
+    color: rgb(147, 117, 150)
+}
+
+.layout {
+  width: 100%;
+  padding: 15px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.def{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 75px 75px 75px 75px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 25px;
+  color: white;
+  background-color: rgba(141, 141, 141, 0.244);  
+  padding: 25px
+}

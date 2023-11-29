@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+body 
+{
+    background-color: #000000;
+    background-repeat: no-repeat;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-link
+{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    
+}
+
+.nav-link:hover
+{
+    color: rgb(147, 117, 150)
+}
+
+.text
+{
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 100px;
+    color: white;
+    background-color: black;  
+}
+
+.deff
+{
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    border-radius: 75px 75px 75px 75px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(157, 157, 157, 0.126);  
+    padding: 25px
+    
+}
+
+.imagen
+ {
+    border-radius: 20px 20px 20px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+ }
+
+.img
+{
+    padding: 15px;
+    background-color: #070707;
+    display: flexbox;
+    align-items: center;
+    justify-content: center; 
+}
+.layout {
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+.layouto
+{
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    gap: 8px;
+}
+
+.def
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 75px 75px 75px 75px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(141, 141, 141, 0.244);  
+    padding: 25px
+}
+
+.tit
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 75px 75px 75px 75px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(157, 157, 157, 0.126);  
+    padding: 10px 
+}
+
+.lay {
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+
+  .btn
+ {
+    border-radius: 200px 200px 200px 200px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(78, 78, 78); 
+ }
+
+.btn:hover
+ {
+     background-color: rgb(151, 132, 148);
+     color: rgb(31, 29, 32)
+ 
+ }
+
+.linea{
+    border-top: 5px solid #ffffff;
+    margin-bottom: 40px;
+  }
